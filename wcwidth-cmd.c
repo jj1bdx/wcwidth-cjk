@@ -6,7 +6,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#ifndef __FreeBSD__
 #include <alloca.h>
+#endif /* !(__FreeBSD__) */
 #include <locale.h>
 #include <wchar.h>
 

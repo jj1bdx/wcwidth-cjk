@@ -24,6 +24,7 @@ AC_CHECK_HEADERS([sys/param.h wchar.h])
 AC_TYPE_SIZE_T
 
 # Checks for library functions.
+AC_FUNC_ALLOCA
 
 #
 # Platform specific setup
